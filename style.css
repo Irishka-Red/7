@@ -1,0 +1,233 @@
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 70%;
+    height: 70%; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.basket{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    width: 50%;
+    height: 50%; 
+    font-size: medium; 
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    z-index: 5;
+}
+.image3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;  
+    width: 30%;
+    height: 20%;  
+    z-index: 4;
+}
+.image4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;  
+    width: 30%;
+    height: 20%; 
+    z-index: 3; 
+}
+.image5{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;  
+    width: 30%;
+    height: 20%; 
+    z-index: 2; 
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+.nav{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    font-size: medium;  
+    font-style: italic; 
+    font-weight: bolder; 
+}
+.image{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;   
+    width: 80%;
+    height: 60%;  
+}
+.section{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-weight: bolder; 
+    background-color: bisque;
+    width: 100vw;
+    height: 15vh;
+}
+.category1{
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.category2{
+    background-color: coral;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.category3{
+background-color: darksalmon;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+}
+.category4{
+    background-color: darkseagreen;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.category5{
+    background-color: goldenrod;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.category6{
+    background-color: lightcoral;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.category7{
+    background-color: olive;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.category8{
+    background-color: tomato;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer{
+    background-color: bisque;  
+    width: 100vw;
+    height: 10vh;
+}
+.image2{
+    width: 20%;
+    height: 100%;    
+}
+@media screen and (min-width:1024px)
+{
+    .header{
+        display: grid;
+        width: 100vw;
+        height: 45vh;
+        min-width: 500px;
+        min-height: 760px;
+        grid-template-columns: 1.5fr 2fr 0.7fr 0.7fr 0.7fr 0.7fr ;
+        grid-template-rows: 0.5fr 1fr;
+        background-color: bisque;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px)
+{
+    .logo{
+        width: 10%;
+        height: 10%;
+    }
+    .image3{
+        width: 10%;
+        height: 10%;       
+    }
+    .image4{
+    width: 10%;
+    height: 10%;
+}
+    .image5{
+    width: 10%;
+    height: 10%;
+}
+    .image{
+    width: 30%;
+    height: 30%;
+}
+}
+@media screen and (max-width:767px)
+{
+    .logo{
+        width: 10%;
+        height: 10%;
+    }
+    .image3{
+        width: 10%;
+        height: 10%;       
+    }
+    .image4{
+    width: 10%;
+    height: 10%;
+}
+    .image5{
+    width: 10%;
+    height: 10%;
+}
+    .image{
+    width: 30%;
+    height: 30%;
+}
+footer{
+    display: none;
+}
+}
